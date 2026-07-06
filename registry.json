@@ -1,0 +1,28 @@
+{
+  "servers": [
+    {
+      "name": "calculator",
+      "description": "Arithmetic and expression evaluation",
+      "command": "python",
+      "args": ["servers/calculator/server.py"]
+    },
+    {
+      "name": "weather",
+      "description": "Current weather and forecasts via Open-Meteo",
+      "command": "python",
+      "args": ["servers/weather/server.py"]
+    },
+    {
+      "name": "filesystem",
+      "description": "Sandboxed file read, write, and directory listing",
+      "command": "python",
+      "args": ["servers/filesystem/server.py"]
+    },
+    {
+      "name": "websearch",
+      "description": "Web search and page fetching",
+      "command": "python",
+      "args": ["servers/websearch/server.py"]
+    }
+  ]
+}
